@@ -16,22 +16,6 @@ Python Flask
 REST APIs  
 Containerization
 
-## Project Structure
-
-kubernetes-microservices-demo
-│
-├── app
-│   ├── app.py
-│   └── requirements.txt
-│
-├── docker
-│   └── Dockerfile
-│
-├── kubernetes
-│   ├── deployment.yaml
-│   └── service.yaml
-│
-└── README.md
 
 ## Deployment Steps
 
