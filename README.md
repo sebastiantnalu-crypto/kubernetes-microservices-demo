@@ -23,6 +23,8 @@ Build Docker image
 
 docker build -t microservice-app .
 
+docker run -p 5000:5000 microservice-app
+
 Start Kubernetes cluster
 
 minikube start
@@ -38,6 +40,8 @@ kubectl apply -f kubernetes/service.yaml
 Check pods
 
 kubectl get pods
+
+kubectl get services
 
 ## Learning Outcomes
 
